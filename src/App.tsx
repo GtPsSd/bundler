@@ -4,7 +4,12 @@ import Bundler from "./Bundler";
 
 function App() {
   return (
-    <Bundler/>
+      <div className="container">
+          <div className="col-8">
+              <Bundler/>
+
+          </div>
+      </div>
         );
 }
 
